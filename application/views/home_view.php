@@ -16,9 +16,9 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         body {
             background-color: #fff;
-            margin: 40px;
             font: 13px/20px normal Helvetica, Arial, sans-serif;
             color: #4F5155;
+            text-align: center;
         }
 
         a {
@@ -50,6 +50,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
         #body {
             margin: 0 15px 0 15px;
+            text-align: left;
         }
 
         p.footer {
@@ -62,9 +63,11 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         }
 
         #container {
-            margin: 10px;
+            margin: 0 auto;
             border: 1px solid #D0D0D0;
             box-shadow: 0 0 8px #D0D0D0;
+            width: 982px;
+            text-align: left;
         }
     </style>
 </head>

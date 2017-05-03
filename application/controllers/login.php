@@ -21,6 +21,8 @@ class Login extends CI_Controller {
 
 	public function index()
 	{
+	    $data['section'] = null;
+	    $this->load->view('inc/header',$data);
 		$this->load->view('login_view');
 	}
 

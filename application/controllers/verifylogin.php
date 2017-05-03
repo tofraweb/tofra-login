@@ -23,6 +23,8 @@ class VerifyLogin extends CI_Controller {
         'errors' => validation_errors()
         );
         $this->session->set_flashdata($val_errors);
+        $data['section'] = null;
+        $this->load->view('inc/header',$data);
         $this->load->view('login_view');
     }
     else
