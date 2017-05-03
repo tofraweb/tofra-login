@@ -21,6 +21,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             text-align: center;
         }
 
+
         a {
             color: #003399;
             background-color: transparent;
