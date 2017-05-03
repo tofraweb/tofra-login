@@ -9,7 +9,8 @@
       <li><a href="https://www.facebook.com/TeamTreehouse">Facebook</a></li>
     </ul>
 
-    <p>&copy;2015 Personal Media Library</p>
+    <p>&copy;2014 Tofra Web Development
+    </p>
 
   </div>
 

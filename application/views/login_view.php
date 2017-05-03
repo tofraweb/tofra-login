@@ -73,7 +73,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <body>
 
 <div id="container">
-    <h1>Welcome to the TofraWeb-Login application!</h1>
+    <h1>Please login</h1>
 
     <div id="body">
         <code>
@@ -103,7 +103,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 'type' => 'submit',
                 'value' => 'Submit'
             );
-            echo form_open('verifylogin', $form_attributes);
+            echo form_open('login/verifylogin', $form_attributes);
             echo form_label('Username:');
             echo form_input($username_input_attributes);
             echo form_label('Password:');

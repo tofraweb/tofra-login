@@ -4,11 +4,15 @@
 	<link rel="stylesheet" href="<?php echo base_url();?>assets/css/header-style.css" type="text/css">
 </head>
 <body>
-
+    <div  id="logout">
+         <?php if(isset($username)){
+            echo " Welcome <span style='color: lightblue'>$username! </span>";
+            echo "<a style='color: white' href='home/logout'>Logout</a>";
+         }?>
+    </div>
 	<div class="header">
 
 		<div class="wrapper">
-
 			<h1 class="branding-title"><a href="./">Personal Media Library</a></h1>
 
 			<ul class="nav">
